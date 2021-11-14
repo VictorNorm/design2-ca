@@ -1,0 +1,38 @@
+main {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  .wrapper {
+    width: 600px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+  }
+  .subHeading {
+    font-family: map-get($fonts, heading);
+  }
+  .container {
+    margin-bottom: 1rem;
+    .brand {
+      font-family: map-get($fonts, brand);
+      font-size: 50px;
+      font-weight: 600;
+      color: map-get($colors, blue);
+    }
+  }
+  // .brandContainer {
+  //   padding: 1rem;
+  // }
+  // .container--color-reverse {
+  //   background-color: map-get($colors, blue);
+  //   .brand {
+  //     color: white;
+  //   }
+  // }
+  .headingContainer {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    display: flex;
+    margin: 2rem 0rem;
+    font-family: map-get($fonts, heading);
+  }
+}

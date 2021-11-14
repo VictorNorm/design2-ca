@@ -1,0 +1,43 @@
+main {
+  .colorContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container__color {
+    flex-shrink: 0;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ccc;
+  }
+  .container__color--blue {
+    background-color: map-get($colors, blue);
+  }
+  .container__color--orange {
+    background-color: map-get($colors, orange);
+  }
+  .container__color--green {
+    background-color: map-get($colors, green);
+  }
+  .container__color--red {
+    background-color: rgb(251, 16, 16);
+  }
+  .container__color--white {
+    background-color: white;
+  }
+
+  .linkContainer {
+    display: flex;
+    .sample {
+      margin-right: 1.5rem;
+      border: 1px solid #ccc;
+      width: 100px;
+      height: 30px;
+    }
+    .sample--light-blue {
+      background-color: map-get($colors, light-blue);
+    }
+    .sample--light-blue-hover {
+      background-color: map-get($colors, light-blue-hover);
+    }
+  }
+}

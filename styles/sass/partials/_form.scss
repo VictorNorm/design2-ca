@@ -1,0 +1,45 @@
+.formContainer {
+  background-color: white;
+  form {
+    font-family: map-get($fonts, body);
+    display: flex;
+    flex-direction: column;
+    label {
+      color: rgb(100, 100, 100);
+    }
+  }
+  .formContainer__inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .text {
+    width: 200px;
+    border-style: none;
+    border-radius: 5px;
+    border: 1px solid rgb(138, 138, 138);
+    padding: 0.3rem;
+    font-family: map-get($fonts, body);
+    font-size: 18px;
+  }
+  .inputContainer__labelContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  textarea {
+    padding: 0.3rem;
+    resize: none;
+    height: 8rem;
+    margin-bottom: 2rem;
+    font-family: map-get($fonts, body);
+  }
+  .radio {
+    scale: 1.2;
+    margin-right: 0.5rem;
+  }
+  .checkbox {
+    scale: 1.2;
+    margin-right: 0.5rem;
+  }
+}

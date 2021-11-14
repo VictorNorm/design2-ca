@@ -1,0 +1,288 @@
+main .colorContainer {
+  display: flex;
+  justify-content: space-between;
+}
+main .container__color {
+  flex-shrink: 0;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #ccc;
+}
+main .container__color--blue {
+  background-color: #134477;
+}
+main .container__color--orange {
+  background-color: #ee6601;
+}
+main .container__color--green {
+  background-color: #477e20;
+}
+main .container__color--red {
+  background-color: #fb1010;
+}
+main .container__color--white {
+  background-color: white;
+}
+main .linkContainer {
+  display: flex;
+}
+main .linkContainer .sample {
+  margin-right: 1.5rem;
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 30px;
+}
+main .linkContainer .sample--light-blue {
+  background-color: #2064ad;
+}
+main .linkContainer .sample--light-blue-hover {
+  background-color: #2f8ef5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+main .wrapper {
+  width: 600px;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+main .subHeading {
+  font-family: "Istok Web";
+}
+main .container {
+  margin-bottom: 1rem;
+}
+main .container .brand {
+  font-family: "Play";
+  font-size: 50px;
+  font-weight: 600;
+  color: #134477;
+}
+main .headingContainer {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  margin: 2rem 0rem;
+  font-family: "Istok Web";
+}
+
+.typographyContainer {
+  margin-top: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+.typographyContainer h1 {
+  font-family: "Istok Web";
+  font-weight: 400;
+  font-size: 44px;
+}
+.typographyContainer h2 {
+  font-family: "Istok Web";
+  font-weight: 400;
+  font-size: 36px;
+}
+.typographyContainer h3 {
+  font-family: "Istok Web";
+  font-weight: 600;
+  font-size: 24px;
+}
+.typographyContainer p {
+  font-family: "Istok Web";
+  margin-bottom: 1rem;
+}
+.typographyContainer .bodyText {
+  font-family: "Hind Siliguri";
+  font-size: 18px;
+}
+.typographyContainer .typographyContainer__link {
+  color: #2064ad;
+}
+.typographyContainer .typographyContainer__link:hover {
+  color: #2f8ef5;
+}
+
+.cta-1 {
+  width: 250px;
+  height: 45px;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #8b8b8b;
+  background-color: #477e20;
+  font-family: "Hind Siliguri";
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.cta-1:hover {
+  background-color: #355d18;
+}
+
+.cta-2 {
+  width: 200px;
+  height: 45px;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #8b8b8b;
+  background-color: #134477;
+  font-family: "Hind Siliguri";
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.cta-2:hover {
+  background-color: #0d3054;
+}
+
+.iconographyContainer {
+  padding: 0rem 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: "Hind Siliguri";
+}
+.iconographyContainer .iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iconographyContainer i {
+  font-size: 30px;
+  color: #134477;
+}
+
+.iconographyContainer--reverse {
+  padding: 1.5rem;
+  background-color: #134477;
+  color: white;
+  font-size: 18px;
+}
+.iconographyContainer--reverse .iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iconographyContainer--reverse i {
+  color: white;
+}
+
+.formContainer {
+  background-color: white;
+}
+.formContainer form {
+  font-family: "Hind Siliguri";
+  display: flex;
+  flex-direction: column;
+}
+.formContainer form label {
+  color: #646464;
+}
+.formContainer .formContainer__inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.formContainer .text {
+  width: 200px;
+  border-style: none;
+  border-radius: 5px;
+  border: 1px solid #8a8a8a;
+  padding: 0.3rem;
+  font-family: "Hind Siliguri";
+  font-size: 18px;
+}
+.formContainer .inputContainer__labelContainer {
+  display: flex;
+  flex-direction: column;
+}
+.formContainer textarea {
+  padding: 0.3rem;
+  resize: none;
+  height: 8rem;
+  margin-bottom: 2rem;
+  font-family: "Hind Siliguri";
+}
+.formContainer .radio {
+  scale: 1.2;
+  margin-right: 0.5rem;
+}
+.formContainer .checkbox {
+  scale: 1.2;
+  margin-right: 0.5rem;
+}
+
+.imageryContainer p {
+  font-family: "Hind Siliguri";
+  margin: 0.5rem 0rem;
+}
+.imageryContainer .italic {
+  font-style: italic;
+  border-bottom: 1px solid #ccc;
+}
+.imageryContainer img {
+  border: 1px solid #ccc;
+}
+.imageryContainer .fullWidth {
+  width: 100%;
+}
+.imageryContainer .halfWidth {
+  width: 49%;
+}
+.imageryContainer .halfWidthContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layoutContainer p {
+  font-family: "Hind Siliguri";
+  font-size: 18px;
+}
+
+.brandingContainer p {
+  font-family: "Hind Siliguri";
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.brandContainer {
+  padding: 1rem;
+  display: flex;
+}
+.brandContainer img {
+  height: 50px;
+  margin-left: 1rem;
+}
+
+.brand {
+  font-family: "Play";
+  font-size: 50px;
+  font-weight: 600;
+  color: #134477;
+}
+
+main .container--color-reverse {
+  background-color: #134477;
+}
+main .container--color-reverse .brand {
+  color: white;
+}
+
+.doDontContainer p {
+  font-family: "Hind Siliguri";
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=styles.css.map */

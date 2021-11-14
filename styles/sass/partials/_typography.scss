@@ -1,0 +1,33 @@
+.typographyContainer {
+  margin-top: 2rem;
+  border-bottom: 1px solid #ccc;
+  h1 {
+    font-family: map-get($fonts, heading);
+    font-weight: 400;
+    font-size: 44px;
+  }
+  h2 {
+    font-family: map-get($fonts, heading);
+    font-weight: 400;
+    font-size: 36px;
+  }
+  h3 {
+    font-family: map-get($fonts, heading);
+    font-weight: 600;
+    font-size: 24px;
+  }
+  p {
+    font-family: map-get($fonts, heading);
+    margin-bottom: 1rem;
+  }
+  .bodyText {
+    font-family: map-get($fonts, body);
+    font-size: 18px;
+  }
+  .typographyContainer__link {
+    color: map-get($colors, light-blue);
+  }
+  .typographyContainer__link:hover {
+    color: map-get($colors, light-blue-hover);
+  }
+}

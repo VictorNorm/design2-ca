@@ -1,0 +1,30 @@
+.cta-1 {
+  width: 250px;
+  height: 45px;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(139, 139, 139);
+  background-color: map-get($colors, green);
+  font-family: map-get($fonts, body);
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.cta-1:hover {
+  background-color: darken(map-get($colors, green), $amount: 8);
+}
+.cta-2 {
+  width: 200px;
+  height: 45px;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(139, 139, 139);
+  background-color: map-get($colors, blue);
+  font-family: map-get($fonts, body);
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.cta-2:hover {
+  background-color: darken(map-get($colors, blue), $amount: 8);
+}

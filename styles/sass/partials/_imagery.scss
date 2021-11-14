@@ -1,0 +1,23 @@
+.imageryContainer {
+  p {
+    font-family: map-get($fonts, body);
+    margin: 0.5rem 0rem;
+  }
+  .italic {
+    font-style: italic;
+    border-bottom: 1px solid #ccc;
+  }
+  img {
+    border: 1px solid #ccc;
+  }
+  .fullWidth {
+    width: 100%;
+  }
+  .halfWidth {
+    width: 49%;
+  }
+  .halfWidthContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
